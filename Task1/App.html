@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="App.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Title"> 
+        <h1>JavaScript CRUD Example Tutorial</h1>
+    </div>
+
+    <div class="container1">
+        <div class="container">
+            <p> Full name* </p>
+            <input type="text" class="fName" name="fName" id="fName" cols="30" rows="1"></input>
+            <p> Email Id </p>
+            <input type="text" class="fName" name="email" id="email" cols="30" rows="1"></input>
+            <p> Salary </p>
+            <input type="text" class="fName" name="salary" id="salary" cols="30" rows="1"></input>
+            <p> City </p>
+            <input type="text" class="fName" name="city" id="city" cols="30" rows="1"></input>
+            <div class="buttons">
+                <button id="submitBtn" class="submit">Sumbit</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="lowerContainer">
+
+        <div class="containerdata">
+            
+            
+            <table id="contentTable" class="contentTable">
+                <tr>
+                    <th>Full Name</th>
+                    <th>Email Id</th>
+                    <th>Salary</th>
+                    <th>City </th>
+                    <th>Actions </th>
+                </tr>
+                <div class="dataBody">
+
+                 
+                </div>
+                <!-- Add more rows as needed -->
+            </table>
+            
+        </div>
+    </div>
+    <script type="module" src="/App.js">
+    </script>
+    </body>
+    </html>
